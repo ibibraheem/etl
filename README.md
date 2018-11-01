@@ -9,7 +9,7 @@ install the following (preferably in a vertual environment):
 
 Download the files to a directory and from that directory run:
 ```sh
-$ python api
+$ python api.py
 $ celery -A tasks worker --loglevel=info --concurrency=1
 $ redis-server
 ```

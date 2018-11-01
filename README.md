@@ -4,7 +4,8 @@ Pre-requisites:
 install the following (preferably in a vertual environment):
   * python 3
   * celery job queue
-  * redis server
+  * redis server(or any backend for celery to keep track of the tasks’ states)
+  * RabbitMQ (or any message broker you prefer for celery)
 
 Download the files to a directory and from that directory run:
 ```sh
